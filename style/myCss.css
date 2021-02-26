@@ -1,0 +1,141 @@
+body{
+    font-family: arial;
+    background-color:#e3e3e3;
+    font-size: 14px;
+}
+.header{
+    color:white;
+    width: 100%;
+    top:0;
+    position: fixed;
+    background-color: #282828;
+    overflow: hidden;
+    height: 50px;
+}
+.footer{
+    text-align: center;
+    color:white;
+    width: 100%;
+    background-color: #282828;
+    position:fixed;
+    bottom:0;  
+    height: 50px;
+    overflow: hidden;
+}
+#Hlink{
+    color:#f29921;
+}
+#Ulink{
+    color:#1bbbf7;
+}
+#logo{
+    width:50px;
+    height: 40px;
+}
+#content{
+    text-align-last: center;
+    margin: 10px 0 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-bottom: 100px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+#content-left{
+    margin: 10% 0 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);  
+    padding-bottom: 60px;
+}
+input{
+    border:1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 0 10px 0;
+}
+#Sbtn{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    border:0px;
+    background-color: #12be00;
+}
+#Dbtn{
+    padding: 2px 4px 2px 4px;
+    color:white;
+    border:0px;
+    background-color:#a91111;
+}
+#lg{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    border:0px;
+    background-color: #f29921;
+}
+#Rbtn{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    border:0px;
+    background-color: #0c00ab;
+}
+#Redbtn{
+    padding: 10px 15px 10px 15px;
+    color:white;
+    border:0px;
+    background-color:#a91111;
+}
+#Tbox{
+    width: 200px;
+}
+.dropup{
+    padding-right: 38px;
+    position: relative;
+    display: inline-block;
+}
+.dropup-content{
+    margin-top: -20px;
+    text-align: center;
+    margin-left: -20px;
+    display: none;
+    position: fixed;
+    background-color: #282828; 
+    line-height: 30px;
+    padding: 0 10px 0 10px;
+}
+.dropup-content a{
+    display: block;
+}
+.dropup:hover .dropup-content{
+    display: block;
+}
+.dropup:hover #Hlink{
+    color:#703f08; 
+}
+.dropup:hover .dropup-content #Hlink{
+    color:#f29921;
+}
+.form tr{
+    line-height:50px;
+}
+.form table{
+    padding: 30px;
+    border:2px grey solid;
+    border-radius: 5px;
+}
+.Red{
+    padding: 4px 8px 4px 8px;
+    background-color:#a91111;
+    color:white;
+    border-radius: 5px;
+}
+.Green{
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    background-color:#1fa911;
+    color:white;
+}
